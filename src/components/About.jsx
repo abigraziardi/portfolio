@@ -1,4 +1,7 @@
 import { EXTERNAL_LINKS } from "../constants/links";
+import profileImg from "../assets/img/profile.png";
+import githubIcon from "../assets/img/icons/github.svg";
+import linkIcon from "../assets/img/icons/linkedin.svg";
 
 export default function About() {
   return (
@@ -8,7 +11,7 @@ export default function About() {
           <div className=" w-full px-4 my-auto md:w-85">
             <div className="bg-linear-to-bl from-violet-500 to-fuchsia-500 rounded-4xl overflow-hidden shadow-lg w-70 m-auto md:w-80 md:right-0 md:mt-0 ">
               <img
-                src="/img/profile.png"
+                src={profileImg}
                 alt="profile"
                 className="h-full w-full object-cover mx-auto"
               />
@@ -36,7 +39,7 @@ export default function About() {
                 className="mr-3 flex h-10 w-10 items-center justify-center rounded-full border border-slate-500 text-slate-500 hover:border-primary hover:bg-primary hover:text-white"
               >
                 <img
-                  src="/img/icons/github.svg"
+                  src={githubIcon}
                   alt="github"
                   width={25}
                   className="dark:brightness-0 dark:invert"
@@ -49,7 +52,7 @@ export default function About() {
                 className="mr-3 flex h-10 w-10 items-center justify-center rounded-full border border-slate-500 text-slate-500 hover:border-primary hover:bg-primary hover:text-white"
               >
                 <img
-                  src="/img/icons/linkedin.svg"
+                  src={linkIcon}
                   alt="linkedin"
                   width={20}
                   className="dark:brightness-0 dark:invert"

@@ -1,8 +1,11 @@
+import background from "../assets/img/background.jpg";
+
 export default function Hero() {
   return (
     <section
       id="home"
-      className="flex justify-center items-center relative h-screen bg-[url(/img/background.jpg)] bg-cover bg-center bg-no-repeat dark:bg-dark"
+      className="flex justify-center items-center relative h-screen bg-cover bg-center bg-no-repeat dark:bg-dark"
+      style={{ backgroundImage: `url(${background})` }}
     >
       <div
         className="absolute inset-0 bg-black/40 backdrop-blur-[0.6px] dark:bg-black/50"

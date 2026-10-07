@@ -1,3 +1,7 @@
+import movieSearchApp from "../assets/img/projects/movie-search-app.png";
+import ticTacToe from "../assets/img/projects/tic-tac-toe.png";
+import toDoList from "../assets/img/projects/to-do-list.png";
+
 export default function Portfolio() {
   return (
     <section
@@ -17,13 +21,13 @@ export default function Portfolio() {
           <div className="mb-12 p-4 md:w-1/3">
             <div className="overflow-hidden rounded-md shadow-lg m-auto h-64 w-full max-w-80 cursor-pointer bg-secondary hover:scale-107 hover:shadow-2xl transition-transform">
               <a
-                href="https://www.youtube.com/"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative block h-full w-full"
               >
                 <img
-                  src="/img/projects/movie-search-app.png"
+                  src={movieSearchApp}
                   alt="movie-search-app"
                   className="h-full w-full object-cover transition-all duration-300 group-hover:blur-[2px] group-hover:brightness-40"
                 />
@@ -60,7 +64,7 @@ export default function Portfolio() {
                 className="group relative block h-full w-full"
               >
                 <img
-                  src=""
+                  src={ticTacToe}
                   alt="tic-tac-toe"
                   className="h-full w-full object-cover transition-all duration-300 group-hover:blur-[2px] group-hover:brightness-40"
                 />
@@ -88,7 +92,7 @@ export default function Portfolio() {
                 className="group relative block h-full w-full"
               >
                 <img
-                  src="/img/projects/to-do-list.png"
+                  src={toDoList}
                   alt="to-do-list"
                   className="h-full w-full object-cover transition-all duration-300 group-hover:blur-[2px] group-hover:brightness-40"
                 />
