@@ -1,6 +1,7 @@
 import movieSearchApp from "../assets/img/projects/movie-search-app.png";
 import ticTacToe from "../assets/img/projects/tic-tac-toe.png";
 import toDoList from "../assets/img/projects/to-do-list.png";
+import { EXTERNAL_LINKS } from "../constants/links";
 
 export default function Portfolio() {
   return (
@@ -21,7 +22,7 @@ export default function Portfolio() {
           <div className="mb-12 p-4 md:w-1/3">
             <div className="overflow-hidden rounded-md shadow-lg m-auto h-64 w-full max-w-80 cursor-pointer bg-secondary hover:scale-107 hover:shadow-2xl transition-transform">
               <a
-                href=""
+                href={EXTERNAL_LINKS.movieSearchApp}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative block h-full w-full"
@@ -58,7 +59,7 @@ export default function Portfolio() {
           <div className="mb-12 p-4 md:w-1/3">
             <div className="overflow-hidden rounded-md shadow-lg m-auto h-64 w-full max-w-80 cursor-pointer bg-secondary hover:scale-107 hover:shadow-2xl transition-transform">
               <a
-                href=""
+                href={EXTERNAL_LINKS.ticTacToe}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative block h-full w-full"
@@ -86,7 +87,7 @@ export default function Portfolio() {
           <div className="mb-12 p-4 md:w-1/3">
             <div className="overflow-hidden rounded-md shadow-lg m-auto h-64 w-full max-w-80 cursor-pointer bg-secondary hover:scale-107 hover:shadow-2xl transition-transform">
               <a
-                href=""
+                href={EXTERNAL_LINKS.toDoList}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative block h-full w-full"
