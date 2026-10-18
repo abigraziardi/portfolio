@@ -1,8 +1,8 @@
-import Header from "./pages/header/Header";
+import Header from "./components/header/Header";
 import Hero from "./pages/hero/Hero";
 import About from "./pages/about/About";
 import Portfolio from "./pages/portfolio/Portfolio";
-import Footer from "./pages/footer/Footer";
+import Footer from "./components/footer/Footer";
 
 export default function App() {
   return (
